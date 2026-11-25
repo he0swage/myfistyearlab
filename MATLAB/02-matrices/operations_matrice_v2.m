@@ -1,0 +1,10 @@
+a=input('enter the element of the matrice a:\n');
+disp(a);
+b=(a(2,:));
+disp(b);
+p=sum(a(1,:));
+disp(p);
+d=mean(a(2,:));
+disp(d);
+v=max(a(3,:));
+disp(v);

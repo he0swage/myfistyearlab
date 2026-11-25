@@ -1,0 +1,14 @@
+# Fichiers de compilation
+*.exe
+*.o
+*.obj
+bin/
+obj/
+# Code::Blocks / Dev-C++
+*.depend
+*.layout
+# MATLAB autosave
+*.asv
+# Divers
+.vscode/
+*.lnk

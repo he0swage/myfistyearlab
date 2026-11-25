@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Site HTML Structuré</title>
+    <style>
+        /* Style de la page d'intro */
+        header {
+            height: 100vh; /* plein écran */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #0b1d3a; /* bleu nuit */
+            color: white;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #87cefa; /* bleu clair au survol */
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        hr {
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page d'accueil / intro -->
+    <header>
+        <h1>Mon Site HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#video">Vidéo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Accueil -->
+    <section id="accueil">
+        <h2>Accueil</h2>
+        <p>Bienvenue sur ce site HTML minimaliste mais bien structuré. Naviguez à travers les sections pour découvrir une image, une vidéo et mes informations de contact.</p>
+    </section>
+
+    <hr>
+
+    <!-- Image -->
+    <section id="image">
+        <h2>Image aléatoire</h2>
+        <p>Voici une image tirée au hasard :</p>
+        <img src="https://source.unsplash.com/random/400x300" alt="Image aléatoire" width="400" height="300">
+    </section>
+
+    <hr>
+
+    <!-- Vidéo -->
+    <section id="video">
+        <h2>Vidéo YouTube</h2>
+        <p>Cliquez ci-dessous pour regarder une vidéo :</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Voir la vidéo</a>
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Tu peux me contacter ici : <a href="mailto:yourklavis@gmail.com">yourklavis@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Mon Site HTML</p>
+    </footer>
+
+</body>
+</html>
